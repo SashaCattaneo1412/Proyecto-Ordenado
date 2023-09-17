@@ -1,0 +1,22 @@
+.container{
+    margin: 0;
+    display: grid;
+    place-content: center;
+    gap: 60px
+}
+.dispensar{
+    place-content: center;
+    border-radius: 40px;
+    background: #453973;
+    width: 391px;
+    height: 87px;
+    flex-shrink: 0;
+    border: none;
+
+}
+.contenidoEncima{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Lexend, sans-serif;
+}

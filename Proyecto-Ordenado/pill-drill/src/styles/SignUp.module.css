@@ -1,0 +1,118 @@
+
+
+.flexbox {
+  display: grid;
+  place-content: center;
+  justify-content: center;
+  gap: 7px;
+ }
+
+ 
+
+ .title{
+ 
+  
+   padding: 5px 30px;
+   color: white;
+   font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0em;
+
+
+ }
+
+ .IR
+{
+
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;
+  cursor: pointer; /* Cambiar cursor al pasar el ratón */
+  border-radius: 20px;
+  background: rgba(230, 221, 214, 1);
+  width: 120px;
+  height: 45px;
+  flex-shrink: 0;
+  font-family: 'Lexend', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  border: none;
+}
+.IR:hover
+{
+
+  background:var(--negro);
+  border:none;
+  
+
+  
+}
+.labelIR:hover
+{
+
+  background-color: white;
+  
+
+  
+}
+
+ .labelIR{
+  font-family: 'Lexend', sans-serif;
+  text-decoration: none;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    padding: 10PX 10PX;
+    text-align: center;
+    color: black;
+
+  
+}
+
+ .contenedorflotante input{
+  background: rgba(255, 254, 254, 1);
+  width: 300px;
+  max-height: 200px;
+  border-radius: 8px;
+  border: none;
+ }
+
+ .contenedorflotante input[type="INPUT"] {
+
+
+   width: 290px;
+   height: 44px;
+   margin-bottom: -1px;
+   font-family: 'Lexend',sans-serif;
+   font-size: 15px;
+   font-weight: 800;
+   line-height: 28px;
+   letter-spacing: 0em;
+   text-align: left;
+   
+ }
+
+
+ .contenedorflotante input[type="password"] {
+   font-family: 'Lexend', sans-serif;
+   width: 290px;
+   height: 44px;
+   font-size: 15px;
+   font-weight: 800;
+   line-height: 28px;
+   letter-spacing: 0em;
+   text-align: left;
+ }
+.seguimiento{
+  display: grid;
+  place-content: center;
+  color: white;
+  font-family: 'Lexend', sans-serif;
+  gap: 10px;
+
+
+
+}
